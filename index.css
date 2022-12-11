@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.app{
+}
+
+header{
+    text-align:center;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bad-words-input{
+    margin: 10px 0 10px 0 ;
+}
+
+.content{
+    margin: 10px 0 10px 0 ;
+}
+
+#bad-words-input{
+    border-radius: 10px;
+    border: 1px solid grey;
+    padding: 10px;
+    width: 200px;
+    height: 40px;
+}
+
+#textarea{
+    resize:none;
+    border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    padding: 10px;
+    width: 100%;
+    height: 60px;
+}
+
+#add-btn{
+    font-weight: 400;
+    font-size: 15px;
+    background: green;
+    color: white;
+    border: none;
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+#add-btn:hover{
+    transition: all 0.2s ease;
+    background-color: white;
+    color: green;
+    border: 2px solid black;
+}
+
+#reset-btn{
+    font-weight: 400;
+    font-size: 15px;
+    border: none;
+    background-color: red;
+    color: white;
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+#reset-btn:hover{
+    transition: all 0.2s ease;
+    background-color: white;
+    color: red;
+    border: 2px solid black;
+}
+
+#cenzor{
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    height: 50px;
+    width: 100%;
+}
